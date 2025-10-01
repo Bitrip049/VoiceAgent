@@ -1,0 +1,17 @@
+###############################################
+# Minimal allowlist: only keep three project files
+# You said you want ONLY: README.md, requirements.txt, voice_faq_agent.py
+# Everything else ignored.
+###############################################
+
+# Ignore everything by default
+*
+
+# But NOT these (whitelist)
+!.gitignore
+!README.md
+!requirements.txt
+!voice_faq_agent.py
+
+# If later you add a src/ folder, remove the global * rule
+# and replace with more granular patterns.

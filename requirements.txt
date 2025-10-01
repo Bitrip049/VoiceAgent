@@ -1,0 +1,15 @@
+numpy==1.26.4
+sounddevice==0.4.6
+soundfile==0.12.1
+webrtcvad==2.0.10
+whisper==1.1.10
+num2words==0.5.13
+vaderSentiment==3.3.2
+ollama==0.3.3
+TTS==0.22.0
+edge-tts==6.1.15
+pydub==0.25.1
+
+# Optional / not required by current code path:
+# faster-whisper==1.0.3   # Use instead of official whisper if you swap implementation
+# librosa==0.10.2.post1   # Higher quality resampling (only needed if you keep that branch)

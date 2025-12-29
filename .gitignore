@@ -12,6 +12,7 @@
 !README.md
 !requirements.txt
 !voice_faq_agent.py
+!voice_faq_agent.ipynb
 
 # If later you add a src/ folder, remove the global * rule
 # and replace with more granular patterns.
